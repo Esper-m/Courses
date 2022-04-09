@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Courses</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220409182149">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wrapper">
+					<a href="home.html" class="header__logo"><img src="img/logo.svg" alt=""></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a class="menu__link" href="about-us.html">About Us</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="courses.html">Courses</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="events.html">Events</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="blog.html">Blog</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__link" href="contacts.html">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<a data-da=".menu__list, 480" href="#" class="actions-header__button btn btn_orange">Get consultation</a>
+						<a href="#" class="actions-header__login _icon-user"><span>Log in / Register</span></a>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+		</header>
+		<main class="page page_inner">
+			<section class="courses">
+				<div class="courses__container">
+					<div class="courses__body">
+						<div class="courses__heading">
+							<div class="courses__subtitle subtitle-heading">Enjoy your studying!</div>
+							<div class="courses__title title-heading">Our online courses</div>
+						</div>
+						<div class="courses__navigation nav-courses">
+							<nav class="nav-courses__filter">
+								<button type="button" class="nav-courses__btn _active">All</button>
+								<button type="button" class="nav-courses__btn">Marketing</button>
+								<button type="button" class="nav-courses__btn">Management</button>
+								<button type="button" class="nav-courses__btn">HR & Recruting</button>
+								<button type="button" class="nav-courses__btn">Design</button>
+								<button type="button" class="nav-courses__btn">Development</button>
+							</nav>
+							<form action="" class="nav-courses__form search-form">
+								<input class="search-form__search" type="search" placeholder="Search course...">
+								<button class="search-form__search-btn _icon-search"></button>
+							</form>
+						</div>
+						<!-- <div data-showmore="items" class="courses">
+                        <div data-showmore-content="4" class="courses__content column-courses">
+                           <a href="" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/1-1.webp" type="image/webp"><img src="img/Courses/1-1.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_marketing">Marketing</p>
+                                 <div class="column-courses__title title-courses">The Ultimate Google Ads Training Course</div>
+                                 <div class="column-courses__info info-courses"><span>$100</span>| by Jerome Bell</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/2-2.webp" type="image/webp"><img src="img/Courses/2-2.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_management">Management</p>
+                                 <div class="column-courses__title title-courses">Prduct Management Fundamentals</div>
+                                 <div class="column-courses__info info-courses"><span>$480</span>| by Marvin McKinney</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/3-3.webp" type="image/webp"><img src="img/Courses/3-3.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_hr">HR & Recruting</p>
+                                 <div class="column-courses__title title-courses">HR  Management and Analytics</div>
+                                 <div class="column-courses__info info-courses"><span>$200</span>| by Leslie Alexander Li</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/4-4.webp" type="image/webp"><img src="img/Courses/4-4.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_marketing">Marketing</p>
+                                 <div class="column-courses__title title-courses">Brand Management & PR Communications</div>
+                                 <div class="column-courses__info info-courses"><span>$530</span>| by Kristin Watson</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/6-5.webp" type="image/webp"><img src="img/Courses/6-5.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_design">Design</p>
+                                 <div class="column-courses__title title-courses">Graphic Design Basic</div>
+                                 <div class="column-courses__info info-courses"><span>$500</span>| by Guy Hawkins</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/5-6.webp" type="image/webp"><img src="img/Courses/5-6.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_management">Management</p>
+                                 <div class="column-courses__title title-courses">Business Development Management</div>
+                                 <div class="column-courses__info info-courses"><span>$400</span>| by Dianne Russell</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/7-7.webp" type="image/webp"><img src="img/Courses/7-7.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_development">Development</p>
+                                 <div class="column-courses__title title-courses">Highload Software Architecture</div>
+                                 <div class="column-courses__info info-courses"><span>$600</span>| by Brooklyn Simmons</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/8-8.webp" type="image/webp"><img src="img/Courses/8-8.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_hr">HR & Recruting</p>
+                                 <div class="column-courses__title title-courses">Human Resources – Selection and Recruitment</div>
+                                 <div class="column-courses__info info-courses"><span>$150</span>| by Kathryn Murphy</div>
+                              </div>
+                           </a>
+                           <a href="#" class="column-courses__card column-courses__card_vert">
+                              <div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/9-9.webp" type="image/webp"><img src="img/Courses/9-9.png" alt="1"></picture></div>
+                              <div class="column-courses__body column-courses__body_v">
+                                 <p class="column-courses__range range-courses range-courses_design">Design</p>
+                                 <div class="column-courses__title title-courses">User Experience. Human-centered Design</div>
+                                 <div class="column-courses__info info-courses"><span>$240</span>| by Cody Fisher</div>
+                              </div>
+                           </a>
+                        </div>
+                        <button data-showmore-button type="button" class="courses__btn-more _icon-load"><span>Load more</span></button>
+                     </div> -->
+						<div class="courses__content">
+							<div class="courses__column-courses column-courses">
+								<a href="" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/1-1.webp" type="image/webp"><img src="img/Courses/1-1.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_marketing">Marketing</p>
+										<div class="column-courses__title title-courses">The Ultimate Google Ads Training Course</div>
+										<div class="column-courses__info info-courses"><span>$100</span>| by Jerome Bell</div>
+									</div>
+								</a>
+								<a href="#" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/2-2.webp" type="image/webp"><img src="img/Courses/2-2.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_management">Management</p>
+										<div class="column-courses__title title-courses">Prduct Management Fundamentals</div>
+										<div class="column-courses__info info-courses"><span>$480</span>| by Marvin McKinney</div>
+									</div>
+								</a>
+								<a href="#" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/3-3.webp" type="image/webp"><img src="img/Courses/3-3.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_hr">HR & Recruting</p>
+										<div class="column-courses__title title-courses">HR Management and Analytics</div>
+										<div class="column-courses__info info-courses"><span>$200</span>| by Leslie Alexander Li</div>
+									</div>
+								</a>
+								<a href="#" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/4-4.webp" type="image/webp"><img src="img/Courses/4-4.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_marketing">Marketing</p>
+										<div class="column-courses__title title-courses">Brand Management & PR Communications</div>
+										<div class="column-courses__info info-courses"><span>$530</span>| by Kristin Watson</div>
+									</div>
+								</a>
+								<a href="#" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/6-5.webp" type="image/webp"><img src="img/Courses/6-5.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_design">Design</p>
+										<div class="column-courses__title title-courses">Graphic Design Basic</div>
+										<div class="column-courses__info info-courses"><span>$500</span>| by Guy Hawkins</div>
+									</div>
+								</a>
+								<a href="#" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/5-6.webp" type="image/webp"><img src="img/Courses/5-6.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_management">Management</p>
+										<div class="column-courses__title title-courses">Business Development Management</div>
+										<div class="column-courses__info info-courses"><span>$400</span>| by Dianne Russell</div>
+									</div>
+								</a>
+								<a href="#" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/7-7.webp" type="image/webp"><img src="img/Courses/7-7.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_development">Development</p>
+										<div class="column-courses__title title-courses">Highload Software Architecture</div>
+										<div class="column-courses__info info-courses"><span>$600</span>| by Brooklyn Simmons</div>
+									</div>
+								</a>
+								<a href="#" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/8-8.webp" type="image/webp"><img src="img/Courses/8-8.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_hr">HR & Recruting</p>
+										<div class="column-courses__title title-courses">Human Resources – Selection and Recruitment</div>
+										<div class="column-courses__info info-courses"><span>$150</span>| by Kathryn Murphy</div>
+									</div>
+								</a>
+								<a href="course-about.html" class="column-courses__card column-courses__card_vert">
+									<div class="column-courses__image column-courses__image_v"><picture><source srcset="img/Courses/9-9.webp" type="image/webp"><img src="img/Courses/9-9.png" alt="1"></picture></div>
+									<div class="column-courses__body column-courses__body_v">
+										<p class="column-courses__range range-courses range-courses_design">Design</p>
+										<div class="column-courses__title title-courses">User Experience. Human-centered Design</div>
+										<div class="column-courses__info info-courses"><span>$240</span>| by Cody Fisher</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<button class="courses__btn-more _icon-load">Load more</button>
+					</div>
+				</div>
+			</section>
+			<section class="testimonials-courses">
+				<section class="testimonials-page">
+					<div class="testimonials-page__container">
+						<div class="testimonials-page__body">
+							<div class="testimonials-page__heading">
+								<div class="testimonials-page__subtitle subtitle-heading">TESTIMONIALS</div>
+								<div class="testimonials-page__title title-heading">What our students say</div>
+							</div>
+							<div class="testimonials-page__carousel">
+								<div class="testimonials-page__controls controls-testimonials">
+									<div class="controls-testimonials__prev control-arrows swiper-button-prev _icon-arrow"></div>
+									<div class="controls-testimonials__next control-arrows swiper-button-next _icon-arrow"></div>
+								</div>
+								<div class="testimonials-page__slider swiper">
+									<div class="testimonials-page__wrapper swiper-wrapper">
+										<div class="testimonials-page__slide swiper-slide">
+											<div class="testimonials-page__card-testimonials testimonials-card">
+												<div class="testimonials-card__body">
+													<div class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+													<div class="testimonials-card__user-profile">
+														<div class="testimonials-card__img"><picture><source srcset="img/content/user.webp" type="image/webp"><img src="img/content/user.png" alt="avatar"></picture></div>
+														<div class="testimonials-card__info">
+															<div class="testimonials-card__name">Eleanor Pena</div>
+															<div class="testimonials-card__position">Position, Course</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="testimonials-page__slide swiper-slide">
+											<div class="testimonials-page__card-testimonials testimonials-card">
+												<div class="testimonials-card__body">
+													<div class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+													<div class="testimonials-card__user-profile">
+														<div class="testimonials-card__img"><picture><source srcset="img/content/user.webp" type="image/webp"><img src="img/content/user.png" alt="avatar"></picture></div>
+														<div class="testimonials-card__info">
+															<div class="testimonials-card__name">Eleanor Pena</div>
+															<div class="testimonials-card__position">Position, Course</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="testimonials-page__slide swiper-slide">
+											<div class="testimonials-page__card-testimonials testimonials-card">
+												<div class="testimonials-card__body">
+													<div class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab animi sint voluptatibus, quisquam enim minus veniam. Consequuntur modi dolores nulla sit animi numquam perferendis magnam. Asperiores et est voluptatem possimus? Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+													<div class="testimonials-card__user-profile">
+														<div class="testimonials-card__img"><picture><source srcset="img/content/user.webp" type="image/webp"><img src="img/content/user.png" alt="avatar"></picture></div>
+														<div class="testimonials-card__info">
+															<div class="testimonials-card__name">Eleanor Pena</div>
+															<div class="testimonials-card__position">Position, Course</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- <div class="testimonials-page__pagination swiper-pagination"></div>                 -->
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="certificate-courses">
+				<section class="certificate">
+					<div class="certificate__container">
+						<div class="certificate__wrapper">
+							<div class="certificate__body">
+								<div class="certificate__heading">
+									<div class="certificate__subtitle subtitle-heading">Createx Certificate</div>
+									<div class="certificate__title title-heading">Your expertise will be confirmed</div>
+								</div>
+								<div class="certificate__text text">We are accredited by international professional organizations and institutes:</div>
+								<div class="certificate__logos">
+									<img src="img/certificate/DelMarStrategy.svg" alt="1">
+									<img src="img/certificate/SentinalcConsulting.svg" alt="2">
+									<img src="img/certificate/NationalHealth.svg" alt="3">
+								</div>
+							</div>
+							<div class="certificate__img"><picture><source srcset="img/certificate/certificate.webp" type="image/webp"><img src="img/certificate/certificate.png" alt="4"></picture></div>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="ubscribe-courses">
+				<section class="subscribe-page">
+					<div class="subscribe-page__container">
+						<div class="subscribe-page__body">
+							<div class="subscribe-page__heading">
+								<div class="subscribe-page__subtitle subtitle-heading">Don’t miss anything</div>
+								<div class="subscribe-page__title title-heading">Subscribe to the Createx School announcements</div>
+							</div>
+							<form class="subscribe-page__form form-subscribe">
+								<input class="form-subscribe__email" type="email" placeholder="Your working email" name="email">
+								<button class="form-subscribe__btn btn btn_orange">Subscribe</button>
+							</form>
+						</div>
+					</div>
+					<div class="subscribe-page__illustrations illustrations-subscribe">
+						<div class="illustrations-subscribe__body">
+							<div class="illustrations-subscribe__img"><picture><source srcset="img/content/illustration.webp" type="image/webp"><img src="img/content/illustration.png" alt="1"></picture></div>
+							<div class="illustrations-subscribe__img"><picture><source srcset="img/content/illustration.webp" type="image/webp"><img src="img/content/illustration.png" alt="2"></picture></div>
+						</div>
+					</div>
+				</section>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top top-footer">
+				<div class="top-footer__container">
+					<div class="top-footer__body">
+						<div class="top-footer__info info-top-footer">
+							<a href="#main" class="info-top-footer__logo"><img src="img/logo-white.svg" alt="logo"></a>
+							<div class="info-top-footer__text">Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country. </div>
+							<ul class="info-top-footer__socials">
+								<li class="info-top-footer__socials-item"><a href="#" class="info-top-footer__socials-link _icon-fb"></a></li>
+								<li class="info-top-footer__socials-item"><a href="#" class="info-top-footer__socials-link _icon-twitter"></a></li>
+								<li class="info-top-footer__socials-item"><a href="#" class="info-top-footer__socials-link _icon-youtube"></a></li>
+								<li class="info-top-footer__socials-item"><a href="#" class="info-top-footer__socials-link _icon-telegram"></a></li>
+								<li class="info-top-footer__socials-item"><a href="#" class="info-top-footer__socials-link _icon-insta"></a></li>
+								<li class="info-top-footer__socials-item"><a href="#" class="info-top-footer__socials-link _icon-in"></a></li>
+							</ul>
+						</div>
+						<div class="top-footer__navigation navigation-footer">
+							<ul class="navigation-footer__site-map nav-list">
+								<li class="nav-list__subject">SITE MAP</li>
+								<li class="nav-list__item"><a href="#about" class="nav-list__link">About Us</a></li>
+								<li class="nav-list__item"><a href="#courses" class="nav-list__link">Courses</a></li>
+								<li class="nav-list__item"><a href="#events" class="nav-list__link">Events</a></li>
+								<li class="nav-list__item"><a href="#blog" class="nav-list__link">Blog</a></li>
+								<li class="nav-list__item"><a href="#contacts" class="nav-list__link">Contacts</a></li>
+							</ul>
+							<ul class="navigation-footer__courses nav-list">
+								<li class="nav-list__subject">COURSES</li>
+								<li class="nav-list__item"><a href="#" class="nav-list__link">Marketing</a></li>
+								<li class="nav-list__item"><a href="#" class="nav-list__link">Management</a></li>
+								<li class="nav-list__item"><a href="#" class="nav-list__link">HR & Recruting</a></li>
+								<li class="nav-list__item"><a href="#" class="nav-list__link">Design</a></li>
+								<li class="nav-list__item"><a href="#" class="nav-list__link">Development</a></li>
+							</ul>
+							<ul class="navigation-footer__contact nav-list">
+								<li class="nav-list__subject">CONTACT US</li>
+								<li class="nav-list__item"><a href="tel:+4055550128" class="nav-list__link nav-list__link_icon _icon-phone">(405) 555-0128</a></li>
+								<li class="nav-list__item"><a href="mailto:hello@createx.com" class="nav-list__link nav-list__link_icon _icon-mail">hello@createx.com</a></li>
+							</ul>
+						</div>
+						<div class="top-footer__subscribe subscribe-list">
+							<div class="subscribe-list__subgect">SIGN UP TO OUR NEWSLETTER</div>
+							<form action="" class="subscribe-list__form">
+								<input class="subscribe-list__email" type="email" placeholder="Email address" name="email">
+								<button class="subscribe-list__btn _icon-arrow"></button>
+							</form>
+							<p class="subscribe-list__remark">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__body">
+						<div class="bottom-footer__copyright">© All rights reserved. Made with <span class="_icon-heart"></span>by Createx Studio</div>
+						<a href="#main" class="bottom-footer__top-link">GO TO TOP</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220409182149"></script>
+</body>
+
+</html>
