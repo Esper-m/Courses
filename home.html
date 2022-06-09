@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-	<title>Главная</title>
+	<title>Home</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220409182149">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220609205536">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,6 +45,7 @@
 					</div>
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 				</div>
+			</div>
 		</header>
 		<main class="page">
 			<section class="main-page">
@@ -74,8 +75,8 @@
 						<div class="about-page__image"><picture><source srcset="img/content/about.webp" type="image/webp"><img src="img/content/about.png" alt="2"></picture></div>
 						<div class="about-page__content content-about">
 							<div class="content-about__heading">
-								<div class="content-about__subtitle subtitle-heading">Who we are</div>
-								<div class="content-about__title title-heading">Why Createx?</div>
+								<h2 class="content-about__subtitle subtitle-heading">Who we are</h2>
+								<h3 class="content-about__title title-heading">Why Createx?</h3>
 							</div>
 							<ul class="content-about__list bulleted-about">
 								<li class="bulleted-about__item bulleted-item _icon-check">A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
@@ -95,60 +96,72 @@
 					<div class="courses-page__body">
 						<div class="courses-page__top-content courses-top">
 							<div class="courses-top__heading">
-								<div class="courses-top__subtitle subtitle-heading">Ready to learn?</div>
-								<div class="courses-top__title title-heading">Featured Courses</div>
+								<h2 class="courses-top__subtitle subtitle-heading">Ready to learn?</h2>
+								<h3 class="courses-top__title title-heading">Featured Courses</h3>
 							</div>
 							<a href="#" class="courses-top__btn btn">View all courses</a>
 						</div>
 						<div class="courses-page__column column-courses">
-							<a href="#" class="column-courses__card">
-								<div class="column-courses__image"><picture><source srcset="img/Courses/1.webp" type="image/webp"><img src="img/Courses/1.png" alt="1"></picture></div>
-								<div class="column-courses__body">
-									<p class="column-courses__range range-courses range-courses_marketing">Marketing</p>
-									<div class="column-courses__title title-courses">The Ultimate Google Ads Training Course</div>
-									<div class="column-courses__info info-courses"><span>$100</span>| by Jerome Bell</div>
-								</div>
-							</a>
-							<a href="#" class="column-courses__card">
-								<div class="column-courses__image"><picture><source srcset="img/Courses/2.webp" type="image/webp"><img src="img/Courses/2.png" alt="2"></picture></div>
-								<div class="column-courses__body">
-									<div class="column-courses__range range-courses range-courses_management">Management</div>
-									<div class="column-courses__title title-courses">Prduct Management Fundamentals</div>
-									<div class="column-courses__info info-courses"><span>$480</span>| by Marvin McKinney</div>
-								</div>
-							</a>
-							<a href="#" class="column-courses__card">
-								<div class="column-courses__image"><picture><source srcset="img/Courses/3.webp" type="image/webp"><img src="img/Courses/3.png" alt="3"></picture></div>
-								<div class="column-courses__body">
-									<div class="column-courses__range range-courses range-courses_hr">HR & Recruting</div>
-									<div class="column-courses__title title-courses">HR Management and Analytics</div>
-									<div class="column-courses__info info-courses"><span>$200</span>| by Leslie Alexander Li</div>
-								</div>
-							</a>
-							<a href="#" class="column-courses__card">
-								<div class="column-courses__image"><picture><source srcset="img/Courses/4.webp" type="image/webp"><img src="img/Courses/4.png" alt="4"></picture></div>
-								<div class="column-courses__body">
-									<div class="column-courses__range range-courses range-courses_marketing">Marketing</div>
-									<div class="column-courses__title title-courses">Brand Management & PR Communications</div>
-									<div class="column-courses__info info-courses"><span>$530</span>| by Kristin Watson</div>
-								</div>
-							</a>
-							<a href="#" class="column-courses__card">
-								<div class="column-courses__image"><picture><source srcset="img/Courses/5.webp" type="image/webp"><img src="img/Courses/5.png" alt="5"></picture></div>
-								<div class="column-courses__body">
-									<div class="column-courses__range range-courses range-courses_management">Management</div>
-									<div class="column-courses__title title-courses">Business Development Management</div>
-									<div class="column-courses__info info-courses"><span>$400</span>| by Dianne Russell</div>
-								</div>
-							</a>
-							<a href="#" class="column-courses__card">
-								<div class="column-courses__image"><picture><source srcset="img/Courses/2.webp" type="image/webp"><img src="img/Courses/2.png" alt="2"></picture></div>
-								<div class="column-courses__body">
-									<div class="column-courses__range range-courses range-courses_design">Design</div>
-									<div class="column-courses__title title-courses">Graphic Design Basic</div>
-									<div class="column-courses__info info-courses"><span>$500</span>| by Guy Hawkins</div>
-								</div>
-							</a>
+							<article class="column-courses__card">
+								<a href="#" class="column-courses__body">
+									<div class="column-courses__image"><picture><source srcset="img/Courses/1.webp" type="image/webp"><img src="img/Courses/1.png" alt="1"></picture></div>
+									<div class="column-courses__content">
+										<p class="column-courses__range range-courses range-courses_marketing">Marketing</p>
+										<h4 class="column-courses__title title-courses">The Ultimate Google Ads Training Course</h4>
+										<div class="column-courses__info info-courses"><span>$100</span>| by Jerome Bell</div>
+									</div>
+								</a>
+							</article>
+							<article class="column-courses__card">
+								<a href="#" class="column-courses__body">
+									<div class="column-courses__image"><picture><source srcset="img/Courses/2.webp" type="image/webp"><img src="img/Courses/2.png" alt="2"></picture></div>
+									<div class="column-courses__content">
+										<p class="column-courses__range range-courses range-courses_management">Management</p>
+										<h4 class="column-courses__title title-courses">Prduct Management Fundamentals</h4>
+										<div class="column-courses__info info-courses"><span>$480</span>| by Marvin McKinney</div>
+									</div>
+								</a>
+							</article>
+							<article class="column-courses__card">
+								<a href="#" class="column-courses__body">
+									<div class="column-courses__image"><picture><source srcset="img/Courses/3.webp" type="image/webp"><img src="img/Courses/3.png" alt="3"></picture></div>
+									<div class="column-courses__content">
+										<p class="column-courses__range range-courses range-courses_hr">HR & Recruting</p>
+										<h4 class="column-courses__title title-courses">HR Management and Analytics</h4>
+										<div class="column-courses__info info-courses"><span>$200</span>| by Leslie Alexander Li</div>
+									</div>
+								</a>
+							</article>
+							<article class="column-courses__card">
+								<a href="#" class="column-courses__body">
+									<div class="column-courses__image"><picture><source srcset="img/Courses/4.webp" type="image/webp"><img src="img/Courses/4.png" alt="4"></picture></div>
+									<div class="column-courses__content">
+										<p class="column-courses__range range-courses range-courses_marketing">Marketing</p>
+										<h4 class="column-courses__title title-courses">Brand Management & PR Communication</h4>
+										<div class="column-courses__info info-courses"><span>$530</span>| by Kristin Watson</div>
+									</div>
+								</a>
+							</article>
+							<article class="column-courses__card">
+								<a href="#" class="column-courses__body">
+									<div class="column-courses__image"><picture><source srcset="img/Courses/5.webp" type="image/webp"><img src="img/Courses/5.png" alt="5"></picture></div>
+									<div class="column-courses__content">
+										<p class="column-courses__range range-courses range-courses_management">Management</p>
+										<h4 class="column-courses__title title-courses">Business Development Management</h4>
+										<div class="column-courses__info info-courses"><span>$400</span>| by Dianne Russel</div>
+									</div>
+								</a>
+							</article>
+							<article class="column-courses__card">
+								<a href="#" class="column-courses__body">
+									<div class="column-courses__image"><picture><source srcset="img/Courses/6.webp" type="image/webp"><img src="img/Courses/6.png" alt="6"></picture></div>
+									<div class="column-courses__content">
+										<p class="column-courses__range range-courses range-courses_design">Design</p>
+										<h4 class="column-courses__title title-courses">Graphic Design Basic</h4>
+										<div class="column-courses__info info-courses"><span>$500</span>| by Guy Hawkins</div>
+									</div>
+								</a>
+							</article>
 						</div>
 					</div>
 				</div>
@@ -157,22 +170,22 @@
 				<div class="benefits-page__container">
 					<div class="benefits-page__body">
 						<div class="benefits-page__heading">
-							<div class="benefits-page__subtitle subtitle-heading">Our benefits</div>
-							<div class="benefits-page__title title-heading">That’s how we do it</div>
+							<h2 class="benefits-page__subtitle subtitle-heading">Our benefits</h2>
+							<h3 class="benefits-page__title title-heading">That’s how we do it</h3>
 						</div>
 						<div data-tabs class="benefits-page__tabs tabs-benefits">
 							<nav data-tabs-titles class="tabs-benefits__buttons">
-								<button type="submit" class="tabs-benefits__tabs-btn _tab-active _icon-Star">Experienced Tutors</button>
-								<button type="submit" class="tabs-benefits__tabs-btn _icon-shape">Feedback & Support</button>
-								<button type="submit" class="tabs-benefits__tabs-btn _icon-library">24/7 Online Library</button>
-								<button type="submit" class="tabs-benefits__tabs-btn _icon-community">Community</button>
+								<button type="button" class="tabs-benefits__tabs-btn _tab-active _icon-Star">Experienced Tutors</button>
+								<button type="button" class="tabs-benefits__tabs-btn _icon-shape">Feedback & Support</button>
+								<button type="button" class="tabs-benefits__tabs-btn _icon-library">24/7 Online Library</button>
+								<button type="button" class="tabs-benefits__tabs-btn _icon-community">Community</button>
 							</nav>
 							<div data-tabs-body class="tabs-benefits__content">
 								<div class="tabs-benefits__body">
 									<div class="tabs-benefits__item">
 										<div class="tabs-benefits__column">
-											<div class="tabs-benefits__headline">Only practicing tutors</div>
-											<div class="tabs-benefits__text text">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</div>
+											<h4 class="tabs-benefits__headline">Only practicing tutors</h4>
+											<p class="tabs-benefits__text text">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
 										</div>
 										<div class="tabs-benefits__image"><picture><source srcset="img/content/benefits-illustration.webp" type="image/webp"><img src="img/content/benefits-illustration.png" alt="3"></picture></div>
 									</div>
@@ -181,16 +194,16 @@
 									<div class="tabs-benefits__item">
 										<div class="tabs-benefits__image"><picture><source srcset="img/content/header.webp" type="image/webp"><img src="img/content/header.png" alt="3"></picture></div>
 										<div class="tabs-benefits__column">
-											<div class="tabs-benefits__headline">Only practicing tutors</div>
-											<div class="tabs-benefits__text text">Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula. Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</div>
+											<h4 class="tabs-benefits__headline">Only practicing tutors</h4>
+											<p class="tabs-benefits__text text">Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula. Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
 										</div>
 									</div>
 								</div>
 								<div class="tabs-benefits__body">
 									<div class="tabs-benefits__item">
 										<div class="tabs-benefits__column">
-											<div class="tabs-benefits__headline">Only practicing tutors</div>
-											<div class="tabs-benefits__text text">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehiculaNunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehiculaNunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula</div>
+											<h4 class="tabs-benefits__headline">Only practicing tutors</h4>
+											<p class="tabs-benefits__text text">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehiculaNunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehiculaNunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula</p>
 										</div>
 										<div class="tabs-benefits__image"><picture><source srcset="img/content/benefits-illustration.webp" type="image/webp"><img src="img/content/benefits-illustration.png" alt="3"></picture></div>
 									</div>
@@ -199,8 +212,8 @@
 									<div class="tabs-benefits__item">
 										<div class="tabs-benefits__image"><picture><source srcset="img/content/header.webp" type="image/webp"><img src="img/content/header.png" alt="3"></picture></div>
 										<div class="tabs-benefits__column">
-											<div class="tabs-benefits__headline">Only practicing tutors</div>
-											<div class="tabs-benefits__text text">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</div>
+											<h4 class="tabs-benefits__headline">Only practicing tutors</h4>
+											<p class="tabs-benefits__text text">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
 										</div>
 									</div>
 								</div>
@@ -213,8 +226,8 @@
 				<div class="events-block__container">
 					<div class="events-page__body">
 						<div class="events-block__heading">
-							<div class="events-block__subtitle subtitle-heading">Our Events</div>
-							<div class="events-block__title title-heading">Lectures & workshops</div>
+							<h2 class="events-block__subtitle subtitle-heading">Our Events</h2>
+							<h3 class="events-block__title title-heading">Lectures & workshops</h3>
 						</div>
 						<div class="events-block__grid">
 							<div class="events-block__row row-events">
@@ -226,7 +239,7 @@
 									</div>
 								</div>
 								<div class="row-events__info row-events__info_1">
-									<p class="row-events__theme">Formation of the organizational structure of the company in the face of uncertainty.</p>
+									<h4 class="row-events__theme">Formation of the organizational structure of the company in the face of uncertainty.</h4>
 									<p class="row-events__format">Onine master-class</p>
 								</div>
 								<a data-da=".row-events__info_1, 768" href="#" class="row-events__btn btn">View more</a>
@@ -240,7 +253,7 @@
 									</div>
 								</div>
 								<div class="row-events__info row-events__info_2">
-									<p class="row-events__theme">Building a customer service department. Best Practices.</p>
+									<h4 class="row-events__theme">Building a customer service department. Best Practices.</h4>
 									<p class="row-events__format">Onine lecture</p>
 								</div>
 								<a data-da=".row-events__info_2, 768" href="#" class="row-events__btn btn">View more</a>
@@ -254,7 +267,7 @@
 									</div>
 								</div>
 								<div class="row-events__info row-events__info_3">
-									<p class="row-events__theme">How to apply methods of speculative design in practice. Worldbuilding prototyping.</p>
+									<h4 class="row-events__theme">How to apply methods of speculative design in practice. Worldbuilding prototyping.</h4>
 									<p class="row-events__format">Onine workshop</p>
 								</div>
 								<a data-da=".row-events__info_3, 768" href="" class="row-events__btn btn">View more</a>
@@ -273,10 +286,10 @@
 						<div class="certificate__wrapper">
 							<div class="certificate__body">
 								<div class="certificate__heading">
-									<div class="certificate__subtitle subtitle-heading">Createx Certificate</div>
-									<div class="certificate__title title-heading">Your expertise will be confirmed</div>
+									<h2 class="certificate__subtitle subtitle-heading">Createx Certificate</h2>
+									<h3 class="certificate__title title-heading">Your expertise will be confirmed</h3>
 								</div>
-								<div class="certificate__text text">We are accredited by international professional organizations and institutes:</div>
+								<p class="certificate__text text">We are accredited by international professional organizations and institutes:</p>
 								<div class="certificate__logos">
 									<img src="img/certificate/DelMarStrategy.svg" alt="1">
 									<img src="img/certificate/SentinalcConsulting.svg" alt="2">
@@ -293,8 +306,8 @@
 					<div class="team-page__body">
 						<div class="team-page__top">
 							<div class="team-page__heading">
-								<div class="team-page__subtitle subtitle-heading">Best tutors are all here</div>
-								<div class="team-page__title title-heading">Meet our team</div>
+								<h2 class="team-page__subtitle subtitle-heading">Best tutors are all here</h2>
+								<h3 class="team-page__title title-heading">Meet our team</h3>
 							</div>
 							<div class="team-page__controls controls-team">
 								<div class="controls-team__prev control-arrows swiper-button-prev _icon-arrow"></div>
@@ -441,8 +454,8 @@
 					<div class="testimonials-page__container">
 						<div class="testimonials-page__body">
 							<div class="testimonials-page__heading">
-								<div class="testimonials-page__subtitle subtitle-heading">TESTIMONIALS</div>
-								<div class="testimonials-page__title title-heading">What our students say</div>
+								<h2 class="testimonials-page__subtitle subtitle-heading">TESTIMONIALS</h2>
+								<h3 class="testimonials-page__title title-heading">What our students say</h3>
 							</div>
 							<div class="testimonials-page__carousel">
 								<div class="testimonials-page__controls controls-testimonials">
@@ -454,7 +467,7 @@
 										<div class="testimonials-page__slide swiper-slide">
 											<div class="testimonials-page__card-testimonials testimonials-card">
 												<div class="testimonials-card__body">
-													<div class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+													<p class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
 													<div class="testimonials-card__user-profile">
 														<div class="testimonials-card__img"><picture><source srcset="img/content/user.webp" type="image/webp"><img src="img/content/user.png" alt="avatar"></picture></div>
 														<div class="testimonials-card__info">
@@ -468,7 +481,7 @@
 										<div class="testimonials-page__slide swiper-slide">
 											<div class="testimonials-page__card-testimonials testimonials-card">
 												<div class="testimonials-card__body">
-													<div class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+													<p class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
 													<div class="testimonials-card__user-profile">
 														<div class="testimonials-card__img"><picture><source srcset="img/content/user.webp" type="image/webp"><img src="img/content/user.png" alt="avatar"></picture></div>
 														<div class="testimonials-card__info">
@@ -482,7 +495,7 @@
 										<div class="testimonials-page__slide swiper-slide">
 											<div class="testimonials-page__card-testimonials testimonials-card">
 												<div class="testimonials-card__body">
-													<div class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab animi sint voluptatibus, quisquam enim minus veniam. Consequuntur modi dolores nulla sit animi numquam perferendis magnam. Asperiores et est voluptatem possimus? Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</div>
+													<p class="testimonials-card__text text _icon-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab animi sint voluptatibus, quisquam enim minus veniam. Consequuntur modi dolores nulla sit animi numquam perferendis magnam. Asperiores et est voluptatem possimus? Lorem ipsum dolor sit amet,consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
 													<div class="testimonials-card__user-profile">
 														<div class="testimonials-card__img"><picture><source srcset="img/content/user.webp" type="image/webp"><img src="img/content/user.png" alt="avatar"></picture></div>
 														<div class="testimonials-card__info">
@@ -494,13 +507,27 @@
 											</div>
 										</div>
 									</div>
-									<!-- <div class="testimonials-page__pagination swiper-pagination"></div>                 -->
+									<div class="testimonials-page__pagination swiper-pagination"></div>
 								</div>
-								<div class="swiper-pagination"></div>
 							</div>
 						</div>
 					</div>
 				</section>
+				<!-- Оболочка слайдера -->
+				<div class="имя-блока__slider swiper">
+					<!-- Двигающееся часть слайдера -->
+					<div class="имя-блока__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="имя-блока__slide swiper-slide"></div>
+					</div>
+					<!-- Если нужна пагинация -->
+					<div class="swiper-pagination"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+					<button type="button" class="swiper-button-prev"></button>
+					<button type="button" class="swiper-button-next"></button>
+					<!-- Если нужен скролбар -->
+					<div class="swiper-scrollbar"></div>
+				</div>
 			</section>
 			<section class="blog-page">
 				<section class="blog">
@@ -508,8 +535,8 @@
 						<div class="blog__body">
 							<div class="blog__top">
 								<div class="blog__heading">
-									<div class="blog__subtitle subtitle-heading">Our blog</div>
-									<div class="blog__title title-heading">Latest posts</div>
+									<h2 class="blog__subtitle subtitle-heading">Our blog</h2>
+									<h3 class="blog__title title-heading">Latest posts</h3>
 								</div>
 								<a href="#" class="blog__btn btn btn_orange">Go to blog</a>
 							</div>
@@ -525,8 +552,8 @@
 											<li class="posts-column__item _icon-calendar">September 4, 2020</li>
 											<li class="posts-column__item _icon-clock">36 min</li>
 										</ul>
-										<div class="posts-column__title">What is traffic arbitrage and does it really make money?</div>
-										<div class="posts-column__text text">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</div>
+										<h4 class="posts-column__title">What is traffic arbitrage and does it really make money?</h4>
+										<p class="posts-column__text text">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</p>
 										<a href="#" class="posts-column__link-more link-more _icon-arrow">Listen</a>
 									</div>
 								</div>
@@ -541,8 +568,8 @@
 											<li class="posts-column__item _icon-calendar">August 25, 2020</li>
 											<li class="posts-column__item _icon-clock">45 min</li>
 										</ul>
-										<div class="posts-column__title">What to do and who to talk to if you want to get feedback on the product</div>
-										<div class="posts-column__text text">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...</div>
+										<h4 class="posts-column__title">What to do and who to talk to if you want to get feedback on the product</h4>
+										<p class="posts-column__text text">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...</p>
 										<a href="#" class="posts-column__link-more link-more _icon-arrow">Watch</a>
 									</div>
 								</div>
@@ -556,9 +583,9 @@
 											<li class="posts-column__item">Design</li>
 											<li class="posts-column__item _icon-calendar">August 8, 2020</li>
 										</ul>
-										<div class="posts-column__title">Should you choose a creative profession if you are attracted to creativity?</div>
-										<div class="posts-column__text text">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...</div>
-										<a href="#" class="posts-column__link-more link-more _icon-arrow">Read</span></a>
+										<h4 class="posts-column__title">Should you choose a creative profession if you are attracted to creativity?</h4>
+										<p class="posts-column__text text">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...</p>
+										<a href="#" class="posts-column__link-more link-more _icon-arrow">Read</a>
 									</div>
 								</div>
 							</div>
@@ -571,8 +598,8 @@
 					<div class="subscribe-page__container">
 						<div class="subscribe-page__body">
 							<div class="subscribe-page__heading">
-								<div class="subscribe-page__subtitle subtitle-heading">Don’t miss anything</div>
-								<div class="subscribe-page__title title-heading">Subscribe to the Createx School announcements</div>
+								<h2 class="subscribe-page__subtitle subtitle-heading">Don’t miss anything</h2>
+								<h3 class="subscribe-page__title title-heading">Subscribe to the Createx School announcements</h3>
 							</div>
 							<form class="subscribe-page__form form-subscribe">
 								<input class="form-subscribe__email" type="email" placeholder="Your working email" name="email">
@@ -661,7 +688,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220409182149"></script>
+	<script src="js/app.min.js?_v=20220609205536"></script>
 </body>
 
 </html>

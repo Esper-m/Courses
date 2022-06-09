@@ -3836,7 +3836,7 @@
             autoHeight: true,
             speed: 800,
             pagination: {
-                el: ".swiper-pagination",
+                el: ".testimonials-page__pagination",
                 clickable: true
             },
             navigation: {
